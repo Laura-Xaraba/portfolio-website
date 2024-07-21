@@ -86,3 +86,7 @@ hr.solid {
     margin-right: 7px;
     color: #fff;
 }
+
+.border-dashed {
+    border: 2px dashed #7A98BF !important;
+}
