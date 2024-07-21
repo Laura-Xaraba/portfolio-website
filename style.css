@@ -1,0 +1,88 @@
+.gradient1 {
+    background-color: #2E4E8C; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #2E4E8C , #7A98BF);
+}
+
+.profile-pic {
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+hr.solid {
+    border-top: 3px solid #7A98BF;
+}
+
+.feature-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-bg-custom {
+    color: #fff !important;
+    background-color: #2E4E8C !important;
+}
+
+.text-bg-custom2 {
+    color: #141F40 !important;
+    background-color: #B8C6D9 !important;
+}
+
+.gradient2 {
+    background-color: #2E4E8C; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #7A98BF, #2E4E8C);
+}
+
+.feature-icon-small {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel {
+    padding: auto;
+}
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+    background-color: rgba(122, 152, 191, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+}
+  
+.carousel-item img {
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-control-next{
+    opacity: 1;
+      filter: invert(1);
+}
+.carousel-control-prev{
+    opacity: 1;
+    filter: invert(1);
+}
+
+.btn-custom {
+    background-color: #2E4E8C;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+}
+
+.bi-github {
+    align-self: center;
+    margin-right: 7px;
+    color: #fff;
+}
