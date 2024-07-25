@@ -1,0 +1,121 @@
+body, p  {
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;  
+    font-family: "Outfit", sans-serif; 
+    color: #99C9DD;
+    text-align: start;
+}
+
+#header .container {
+    background-color: #011826;
+    display: grid;
+    height: 25rem;
+    padding: 30px;
+    grid-template-columns: 1fr 1fr;
+    place-content: center;
+    place-items: center;
+    gap: 40px;
+}
+
+#header .text-header h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: end;
+    color: #fff;
+}
+
+#header .text-header p {
+    font-weight: 100;
+    text-align: end;
+}
+
+#header .img-header {
+    display: flex;
+    place-content: center;
+    place-items: center;
+}
+
+#about .container {
+    background-color: #022D3F;
+    display: grid;
+    padding: 30px;
+    height: max-content;
+    grid-template-rows: auto 220px auto;
+    grid-template-columns: repeat(3, auto);
+    place-content: center;
+    place-items: center;
+    gap: 1rem;
+}
+
+#about .title-about {
+    text-align: center;
+    grid-area: 1 / 1 / 2 / -1 ;
+    color: #A9CBD9;
+}
+
+#about .title-about h2 {
+    align-self: center;
+    justify-self: center;
+    margin-top: 2rem;
+}
+
+#about .img-about img {
+    border-radius: 50%;
+    height: 200px;
+}
+
+#about .img-about {
+    grid-area: 2 / 1 / 3 / -1 ;
+}
+
+#about .content-about {
+    grid-area: 3 / 1 / -1 / -1 ;
+    padding: 0 15%;
+}
+
+#about .content-about p {
+    text-align: center;
+    font-weight: 300;
+    color: #92B0BC;
+    margin-bottom: 2rem;
+}
+
+
+
+@media (max-width: 767px) {
+
+    #header .container {
+        background-color: #011826;
+        display: grid;
+        height: fit-content;
+        padding: 30px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        place-content: center;
+        place-items: center;
+        gap: 40px;
+    }
+
+    #header .text-header h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    #header .text-header p {
+        color: #A9CBD9;
+        text-align: center;
+    }
+
+    #header .img-header {
+        display: flex;
+        place-content: center;
+        place-items: center;
+    }
+
+    #about .content-about {
+        grid-area: 3 / 1 / -1 / -1 ;
+        padding: 0%;
+    }
+    
+}
