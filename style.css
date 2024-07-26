@@ -87,7 +87,106 @@ body, p  {
 
 #resume .container {
     background-color: #011826;
-    height: 40rem;
+    height: fit-content;
+    display: grid;
+    align-items: center;
+    padding: 2rem 10%;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+#resume .part1 {
+    margin-right: 25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    column-gap: 3rem;
+    align-items: center;
+}
+
+#resume .icon1 {
+    background-color: #056E97;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 20%;
+    float: left;
+}
+
+#resume .icon1 svg {
+    padding: 1rem;
+}
+
+#resume .resume1 h2 {
+    text-align: start;
+}
+
+#resume .resume1 p {
+    text-align: start;
+    font-weight: 200;
+}
+
+#resume .part2 {
+    margin-left: 25rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    column-gap: 3rem;
+    align-items: center;
+}
+
+#resume .icon2 {
+    background-color: #056E97;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 20%;
+    float: right;
+}
+
+#resume .icon2 svg {
+    padding: 1rem;
+}
+
+#resume .resume2 h2 {
+    text-align: end;
+}
+
+#resume .resume2 p {
+    font-weight: 200;
+    text-align: end;
+}
+
+#resume .part3 {
+    margin-right: 25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    column-gap: 3rem;
+    align-items: center;
+}
+
+#resume .icon3 {
+    background-color: #056E97;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 20%;
+    float: left;
+}
+
+#resume .icon3 svg {
+    padding: 1rem;
+}
+
+#resume .resume3 h2 {
+    text-align: start;
+}
+
+#resume .resume3 p {
+    text-align: start;
+    font-weight: 200;
+}
+
+#resume span {
+    color: #336072;
 }
 
 @media (max-width: 767px) {
@@ -123,6 +222,179 @@ body, p  {
     #about .content-about {
         grid-area: 3 / 1 / -1 / -1 ;
         padding: 0%;
+    }
+
+    #resume .part1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 3rem 1rem;
+        margin: 0%;
+    }
+    
+    #resume .icon1 {
+        background-color: #056E97;
+        height: 5rem;
+        width: 5rem;
+        border-radius: 20%;
+    }
+    
+    #resume .icon1 svg {
+        padding: 1rem;
+    }
+    
+    #resume .resume1 h2 {
+        text-align: center;
+    }
+    
+    #resume .resume1 p {
+        text-align: center;
+        font-weight: 200;
+    }
+    
+    #resume .part2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0%;
+    }
+    
+    #resume .icon2 {
+        background-color: #056E97;
+        height: 5rem;
+        width: 5rem;
+        border-radius: 20%;
+    }
+    
+    #resume .icon2 svg {
+        padding: 1rem;
+    }
+    
+    #resume .resume2 h2 {
+        text-align: center;
+    }
+    
+    #resume .resume2 p {
+        text-align: center;
+        font-weight: 200;
+    }
+    
+    #resume .part3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0%;
+    }
+    
+    #resume .icon3 {
+        background-color: #056E97;
+        height: 5rem;
+        width: 5rem;
+        border-radius: 20%;
+    }
+    
+    #resume .icon3 svg {
+        padding: 1rem;
+    }
+    
+    #resume .resume3 h2 {
+        text-align: center;
+    }
+    
+    #resume .resume3 p {
+        text-align: center;
+        font-weight: 200;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    #resume .part1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        margin: 0%;
+    }
+    
+    #resume .icon1 {
+        background-color: #056E97;
+        height: 5rem;
+        width: 5rem;
+        border-radius: 20%;
+    }
+    
+    #resume .icon1 svg {
+        padding: 1rem;
+    }
+    
+    #resume .resume1 h2 {
+        text-align: center;
+    }
+    
+    #resume .resume1 p {
+        text-align: center;
+        font-weight: 200;
+    }
+    
+    #resume .part2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0%;
+    }
+    
+    #resume .icon2 {
+        background-color: #056E97;
+        height: 5rem;
+        width: 5rem;
+        border-radius: 20%;
+    }
+    
+    #resume .icon2 svg {
+        padding: 1rem;
+    }
+    
+    #resume .resume2 h2 {
+        text-align: center;
+    }
+    
+    #resume .resume2 p {
+        text-align: center;
+        font-weight: 200;
+    }
+    
+    #resume .part3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0%;
+    }
+    
+    #resume .icon3 {
+        background-color: #056E97;
+        height: 5rem;
+        width: 5rem;
+        border-radius: 20%;
+    }
+    
+    #resume .icon3 svg {
+        padding: 1rem;
+    }
+    
+    #resume .resume3 h2 {
+        text-align: center;
+    }
+    
+    #resume .resume3 p {
+        text-align: center;
+        font-weight: 200;
     }
 
 }
