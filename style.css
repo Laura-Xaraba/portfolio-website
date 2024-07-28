@@ -89,13 +89,21 @@ body, p  {
     height: fit-content;
     display: grid;
     align-items: center;
-    padding: 2rem 10%;
+    padding: 3rem 10%;
     grid-template-rows: auto repeat(3, 1fr);
     gap: 2rem;
 }
 
 #resume .section-title h2 {
     margin-bottom: 0;
+    color: #afd9eb;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+hr {
+    border: 1px solid #056e9791;
+    border-radius: 1px;
 }
 
 #resume .part1 {
@@ -209,17 +217,16 @@ body, p  {
 
 #skills .title-skills {
     grid-area: 1 / 1 / 2 / -1 ;
-    justify-self: start;
-    margin-left: 2rem;
+    justify-self: center;
 }
 
 #skills .title-skills h2 {
-    text-align: start;
+    text-align: center;
     color: #afd9eb;
 }
 
 #skills .title-skills p {
-    text-align: start;
+    text-align: center;
     color: #3f7083;
 }
 
@@ -252,8 +259,9 @@ body, p  {
 
 #projects .section-title {
     grid-area: 1 / 1 / 2 / -1 ;
-    text-align: start;
-    align-self: start;
+    text-align: center;
+    align-self: center;
+    color: #afd9eb;
 }
 
 #projects a {
@@ -298,11 +306,57 @@ body, p  {
     margin-top: 0;
 }
 
+#contact .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    background-color: #022D3F;
+    padding: 3rem 15%;
+    place-content: center;
+    place-items: center;
+    gap: 2rem;
+}
+
+#contact .title-contact {
+    grid-area: 1 / 1 / 2 / -1 ;
+    text-align: center;
+    color: #afd9eb;
+    padding-bottom: 3rem;
+}
+
+#contact .title-contact p {
+    text-align: center;
+    color: #5490aa;
+}
+
+#contact .e-mail {
+    grid-area: 2 / 1 / -1 / 2;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+#contact .tel {
+    grid-area: 2 / 2 / -1 / -1;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+#contact svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    justify-self: content;
+    align-self: center;
+    margin-right: 0.5rem;
+    color: #056E97;
+}
+
 
 @media (max-width: 767px) {
 
     #header .container {
-        background-color: #011826;
+        background-color: #2a2f33;
         display: grid;
         height: fit-content;
         padding: 30px;
