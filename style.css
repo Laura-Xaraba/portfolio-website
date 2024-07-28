@@ -352,6 +352,23 @@ hr {
     color: #056E97;
 }
 
+#footer .container {
+    background-color: #011826;
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footer a {
+    color: #99C9DD;
+}
+
+#footer p {
+    font-size: 1.2rem;
+}
 
 @media (max-width: 767px) {
 
@@ -507,6 +524,16 @@ hr {
         align-items: center;
         justify-content: center;
         padding: 1.5rem;
+    }
+
+    #contact .container {
+        display: flex;
+        flex-direction: column;
+        background-color: #022D3F;
+        padding: 3rem 5%;
+        place-content: center;
+        place-items: center;
+        gap: 2rem;
     }
 }
 
