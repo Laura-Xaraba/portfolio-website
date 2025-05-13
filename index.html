@@ -1,188 +1,472 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>Dev Laura X</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Outfit:wght@100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    
+    <link
+      rel="stylesheet"
+      href="./style.css"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Outfit:wght@100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- Header com nome e função (imagem a escolha) -->
     <section id="header">
-        <div class="container">
-            <div class="text-header">
-                <h1>Olá, eu sou Laura Xaraba,</h1>
-                <p>e sou Programadora.</p>
-            </div>
-            <div class="img-header">
-                <img src="./assets/presentation-composition.png" alt="Composição de ilustrações de livros, um relógio e um laptop.">
-            </div>
+      <div class="container">
+        <div class="text-header">
+          <h1>Olá, eu sou Laura Xaraba.</h1>
+          <p>De pedagoga para desenvolvedora web — criatividade com propósito!</p>
         </div>
+        <div class="img-header">
+          <img
+            src="./assets/presentation-composition.png"
+            alt="Composição de ilustrações de livros, um relógio e um laptop."
+          />
+        </div>
+      </div>
     </section>
 
     <!-- Sobre com foto e pequena descrição -->
     <section id="about">
-        <div class="container">
-            <div class="title-about">
-                <h2>Prazer em conhecer.</h2>   
-            </div>
-            <div class="img-about">
-                <img src="./assets/profile-picturev2.jpg" alt="Foto de Laura, mulher branca e ruiva.">
-            </div>
-            <div class="content-about">
-                <p>
-                    Tenho 23 anos, nascida e crescida no interior de São Paulo, estudante de Engenharia de Software 
-                    e Tecnologia em Análise e Desenvolvimento de Sistemas. QA, desenvolvedora Web e com um interesse 
-                    crescente em UI/UX e IA. Ex graduanda em pedagogia, hoje apaixonada por estudar tecnologia e 
-                    todas as suas aplicações. Também amo gatos, jogos, e um bom café.
-                </p>
-            </div>
+      <div class="container">
+        <h2 class="section-title">Sobre mim</h2>
+        <div class="img-about">
+          <img
+            src="./assets/profile-picturev2.jpg"
+            alt="Foto de Laura, mulher branca e ruiva."
+          />
         </div>
+        <div class="content-about">
+          <p>
+            Sou uma profissional de 23 anos em transição de carreira e foco acadêmico: da pedagogia para a tecnologia.
+            Estudante de Engenharia de Software, Análise e Desenvolvimento de Sistemas e apaixonada por desafios e
+            lógica criativa.
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- Resumo em linha do tempo -->
     <section id="resume">
-        <div class="container">
-            <div class="section-title">
-                <h2>Trajetória</h2>
-                <hr>
-            </div>
-            <div class="part1">
-                <div class="icon1">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
-                        <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001m-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708z"/>
-                    </svg>
-                </div>
-                <div class="resume1">
-                    <h2>Ingresso na UFSCar, bacharelado em pedagogia <span>- 01/2020</span></h2>
-                    <p>Graduação na área de humanas, na qual aprendi a trabalhar em grupo e melhorei imensamente minhas habilidades comunicativas nos estágios em escolas. Além da didática, minha empatia e humildade foram reforçadas ao observar que todos tem muito a ensinar.</p>
-                </div>
-            </div>
-            <div class="part2">
-                <div class="icon2">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
-                        <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>
-                    </svg>
-                </div>
-                <div class="resume2">
-                    <h2>Trancamento do curso, início estudos em programação <span>- 02/2024</span></h2>
-                    <p>No início de 2024, depois de perceber as limitações que a pedagogia me colocaria, decidi trancar o curso superior e iniciar meus estudos por cursos da Udemy e da Alura. Foi quando tive certeza que era a tecnologia que tomaria meus estudos daquele momento em diante, me apaixonando mais a cada dia pela área.</p>
-                </div>
-            </div>
-            <div class="part3">
-                <div class="icon3">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-terminal-split" viewBox="0 0 16 16">
-                        <path d="M2.146 3.146a.5.5 0 0 1 .708 0l.823.824a.75.75 0 0 1 0 1.06l-.823.824a.5.5 0 1 1-.708-.708l.647-.646-.647-.646a.5.5 0 0 1 0-.708M4 6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1A.5.5 0 0 1 4 6m6.354-2.854a.5.5 0 0 0-.708.708l.647.646-.647.646a.5.5 0 1 0 .708.708l.823-.824a.75.75 0 0 0 0-1.06zM12 5.5a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1z"/>
-                        <path d="M0 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h5.5V2zm6.5 0v12H14a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1z"/>
-                    </svg>
-                </div>
-                <div class="resume3">
-                    <h2>Início do Bacharelado em Engenharia de Software <span>- 04/2024</span></h2>
-                    <p>Depois de mergulhar no universo da Tecnologia da Informação, iniciei outro curso Superior, dessa vez, na área que me encontrei. O curso vem acentuando minhas habilidades de resolução de problema, além de me ajudar a desenvolver sistemas para aprender sozinha rapidamente sobre qualquer assunto com as ferramentas que tenho em mãos.</p>
-                </div>
+      <div class="container">
+        <h2 class="section-title">Resumo</h2>
+
+        <div class="resume-item">
+          <div class="icon-resume">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="50"
+              height="50"
+              fill="currentColor"
+              class="bi bi-pen"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001m-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708z"
+              />
+            </svg>
+          </div>
+          <div class="description-left">
+            <h2>Ingresso na UFSCar, bacharelado em pedagogia <span>- </br>01/2020</span></h2>
+            <p>
+              Graduação na área de humanas, na qual aprendi a trabalhar em grupo e melhorei imensamente minhas
+              habilidades comunicativas nos estágios em escolas. Além da didática, minha empatia e humildade foram
+              reforçadas ao observar que todos tem muito a ensinar.
+            </p>
+          </div>
+        </div>
+
+        <div class="resume-item reverse">
+          <div class="icon-resume">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="50"
+              height="50"
+              fill="currentColor"
+              class="bi bi-code-slash"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"
+              />
+            </svg>
+          </div>
+          <div class="description reverse">
+            <h2>Trancamento do curso, início estudos em programação <span>- </br>02/2024</span></h2>
+            <p>
+              No início de 2024, depois de perceber as limitações que a pedagogia me colocaria, decidi trancar o curso
+              superior e iniciar meus estudos por cursos da Udemy e da Alura. Foi quando tive certeza que era a
+              tecnologia que guiaria meus estudos daquele momento em diante, me apaixonando mais a cada dia pela área.
+            </p>
+          </div>
+        </div>
+
+        <div class="resume-item">
+          <div class="icon-resume">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="50"
+              height="50"
+              fill="currentColor"
+              class="bi bi-terminal-split"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M2.146 3.146a.5.5 0 0 1 .708 0l.823.824a.75.75 0 0 1 0 1.06l-.823.824a.5.5 0 1 1-.708-.708l.647-.646-.647-.646a.5.5 0 0 1 0-.708M4 6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1A.5.5 0 0 1 4 6m6.354-2.854a.5.5 0 0 0-.708.708l.647.646-.647.646a.5.5 0 1 0 .708.708l.823-.824a.75.75 0 0 0 0-1.06zM12 5.5a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1z"
+              />
+              <path
+                d="M0 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h5.5V2zm6.5 0v12H14a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1z"
+              />
+            </svg>
+          </div>
+          <div class="description">
+            <h2>Início do Bacharelado em Engenharia de Software <span>- </br>04/2024</span></h2>
+            <p>
+              Depois de mergulhar no universo da Tecnologia da Informação, iniciei outro curso Superior, dessa vez, na
+              área que me encontrei. O curso vem acentuando minhas habilidades de resolução de problema, além de me
+              ajudar a desenvolver sistemas para aprender sozinha rapidamente sobre qualquer assunto com as ferramentas
+              que tenho em mãos.
+            </p>
+          </div>
+        </div>
+        <div class="resume-item reverse">
+            <img class="icon-resume img" src="./assets/zappts-logoV3.png" alt="Logo da empresa Zappts"/>
+            <div class="description reverse">
+                <h2>Início do estágio em QA na empresa Zappts <span>- </br>03/2025</span></h2>
+                <p>
+                No fim de 2024, comecei a me interessar pela área de Qualidade de Software, na qual me aprofundei grandemente
+                e me apaixonei pela oportunidade de juntar meu conhecimento em TI com toda a bagagem de comunicação que construída
+                durante os anos em que estudei pedagogia. Conheci a empresa Zappts e seus projetos e me candidatei a vaga de estágio 
+                em QA, na qual estou hoje, mergulhando na área de testes muito bem auxiliada.
+                </p>
             </div>
         </div>
+      </div>
     </section>
 
     <!-- Descrição de habilidades -->
     <section id="skills">
       <div class="container">
-        <div class="title-skills">
-            <h2>Habilidades técnicas</h2>
-            <p>Tecnologias que tenho utilizado atualmente:</p>
+        <h2 class="section-title">Skills</h2>
+        <div class="box-skill">
+          <svg
+            viewBox="0 0 32 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              id="SVGRepo_bgCarrier"
+              stroke-width="0"
+            ></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M6 28L4 3H28L26 28L16 31L6 28Z"
+                fill="#E44D26"
+              ></path>
+              <path
+                d="M26 5H16V29.5L24 27L26 5Z"
+                fill="#F16529"
+              ></path>
+              <path
+                d="M9.5 17.5L8.5 8H24L23.5 11H11.5L12 14.5H23L22 24L16 26L10 24L9.5 19H12.5L13 21.5L16 22.5L19 21.5L19.5 17.5H9.5Z"
+                fill="white"
+              ></path>
+            </g>
+          </svg>
         </div>
         <div class="box-skill">
-            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 28L4 3H28L26 28L16 31L6 28Z" fill="#E44D26"></path> <path d="M26 5H16V29.5L24 27L26 5Z" fill="#F16529"></path> <path d="M9.5 17.5L8.5 8H24L23.5 11H11.5L12 14.5H23L22 24L16 26L10 24L9.5 19H12.5L13 21.5L16 22.5L19 21.5L19.5 17.5H9.5Z" fill="white"></path> </g></svg>
+          <svg
+            viewBox="0 0 32 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              id="SVGRepo_bgCarrier"
+              stroke-width="0"
+            ></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M6 28L4 3H28L26 28L16 31L6 28Z"
+                fill="#1172B8"
+              ></path>
+              <path
+                d="M26 5H16V29.5L24 27L26 5Z"
+                fill="#33AADD"
+              ></path>
+              <path
+                d="M19.5 17.5H9.5L9 14L17 11.5H9L8.5 8.5H24L23.5 12L17 14.5H23L22 24L16 26L10 24L9.5 19H12.5L13 21.5L16 22.5L19 21.5L19.5 17.5Z"
+                fill="white"
+              ></path>
+            </g>
+          </svg>
         </div>
         <div class="box-skill">
-            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 28L4 3H28L26 28L16 31L6 28Z" fill="#1172B8"></path> <path d="M26 5H16V29.5L24 27L26 5Z" fill="#33AADD"></path> <path d="M19.5 17.5H9.5L9 14L17 11.5H9L8.5 8.5H24L23.5 12L17 14.5H23L22 24L16 26L10 24L9.5 19H12.5L13 21.5L16 22.5L19 21.5L19.5 17.5Z" fill="white"></path> </g></svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            aria-label="JavaScript"
+            role="img"
+            viewBox="0 0 520 520"
+            fill="#000000"
+          >
+            <g
+              id="SVGRepo_bgCarrier"
+              stroke-width="0"
+            ></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <rect
+                width="512"
+                height="512"
+                rx="15%"
+                fill="#f7df1e"
+              ></rect>
+              <path
+                d="M324 370c10 17 24 29 47 29c20 0 33-10 33 -24c0-16 -13 -22 -35 -32l-12-5c-35-15 -58 -33 -58 -72c0-36 27 -64 70 -64c31 0 53 11 68 39l-37 24c-8-15 -17 -21 -31 -21c-14 0-23 9 -23 21c0 14 9 20 30 29l12 5c41 18 64 35 64 76c0 43-34 67 -80 67c-45 0-74 -21 -88 -49zm-170 4c8 13 14 25 31 25c16 0 26-6 26 -30V203h48v164c0 50-29 72 -72 72c-39 0-61 -20 -72 -44z"
+              ></path>
+            </g>
+          </svg>
         </div>
         <div class="box-skill">
-            <svg xmlns="http://www.w3.org/2000/svg" aria-label="JavaScript" role="img" viewBox="0 0 520 520" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><rect width="512" height="512" rx="15%" fill="#f7df1e"></rect><path d="M324 370c10 17 24 29 47 29c20 0 33-10 33 -24c0-16 -13 -22 -35 -32l-12-5c-35-15 -58 -33 -58 -72c0-36 27 -64 70 -64c31 0 53 11 68 39l-37 24c-8-15 -17 -21 -31 -21c-14 0-23 9 -23 21c0 14 9 20 30 29l12 5c41 18 64 35 64 76c0 43-34 67 -80 67c-45 0-74 -21 -88 -49zm-170 4c8 13 14 25 31 25c16 0 26-6 26 -30V203h48v164c0 50-29 72 -72 72c-39 0-61 -20 -72 -44z"></path></g></svg>
+          <svg
+            viewBox="0 0 32 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              id="SVGRepo_bgCarrier"
+              stroke-width="0"
+            ></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M16 16C16 13.7909 17.7909 12 20 12C22.2091 12 24 13.7909 24 16C24 18.2091 22.2091 20 20 20C17.7909 20 16 18.2091 16 16Z"
+                fill="#1ABCFE"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M8 24C8 21.7909 9.79086 20 12 20H16V24C16 26.2091 14.2091 28 12 28C9.79086 28 8 26.2091 8 24Z"
+                fill="#0ACF83"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M16 4V12H20C22.2091 12 24 10.2091 24 8C24 5.79086 22.2091 4 20 4H16Z"
+                fill="#FF7262"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M8 8C8 10.2091 9.79086 12 12 12H16V4H12C9.79086 4 8 5.79086 8 8Z"
+                fill="#F24E1E"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M8 16C8 18.2091 9.79086 20 12 20H16V12H12C9.79086 12 8 13.7909 8 16Z"
+                fill="#A259FF"
+              ></path>
+            </g>
+          </svg>
         </div>
         <div class="box-skill">
-            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M16 16C16 13.7909 17.7909 12 20 12C22.2091 12 24 13.7909 24 16C24 18.2091 22.2091 20 20 20C17.7909 20 16 18.2091 16 16Z" fill="#1ABCFE"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M8 24C8 21.7909 9.79086 20 12 20H16V24C16 26.2091 14.2091 28 12 28C9.79086 28 8 26.2091 8 24Z" fill="#0ACF83"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M16 4V12H20C22.2091 12 24 10.2091 24 8C24 5.79086 22.2091 4 20 4H16Z" fill="#FF7262"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M8 8C8 10.2091 9.79086 12 12 12H16V4H12C9.79086 4 8 5.79086 8 8Z" fill="#F24E1E"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M8 16C8 18.2091 9.79086 20 12 20H16V12H12C9.79086 12 8 13.7909 8 16Z" fill="#A259FF"></path> </g></svg>
+          <svg
+            viewBox="0 0 256 256"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            preserveAspectRatio="xMidYMid"
+            fill="#000000"
+          >
+            <g
+              id="SVGRepo_bgCarrier"
+              stroke-width="0"
+            ></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <g>
+                <path
+                  d="M0,222.991225 C0,241.223474 14.7785318,256 33.0087747,256 L222.991225,256 C241.223474,256 256,241.221468 256,222.991225 L256,33.0087747 C256,14.7765263 241.221468,0 222.991225,0 L33.0087747,0 C14.7765263,0 0,14.7785318 0,33.0087747 L0,222.991225 Z"
+                  fill="#563D7C"
+                ></path>
+                <path
+                  d="M106.157563,113.238095 L106.157563,76.9845938 L138.069328,76.9845938 C141.108559,76.9845938 144.039202,77.2378593 146.861345,77.7443978 C149.683488,78.2509362 152.179961,79.1554557 154.35084,80.4579832 C156.52172,81.7605107 158.258397,83.5695496 159.560924,85.8851541 C160.863452,88.2007585 161.514706,91.1675823 161.514706,94.7857143 C161.514706,101.298352 159.560944,106.001853 155.653361,108.896359 C151.745779,111.790864 146.752832,113.238095 140.67437,113.238095 L106.157563,113.238095 L106.157563,113.238095 Z M72.07493,50.5 L72.07493,205.5 L147.186975,205.5 C154.133788,205.5 160.899594,204.631661 167.484594,202.894958 C174.069594,201.158255 179.93088,198.480877 185.068627,194.862745 C190.206375,191.244613 194.294803,186.577293 197.334034,180.860644 C200.373264,175.143996 201.892857,168.37819 201.892857,160.563025 C201.892857,150.866431 199.541107,142.581033 194.837535,135.706583 C190.133963,128.832132 183.00635,124.020088 173.454482,121.270308 C180.401295,117.941627 185.647508,113.672295 189.193277,108.462185 C192.739047,103.252075 194.511905,96.7395349 194.511905,88.9243697 C194.511905,81.6881057 193.317939,75.6097352 190.929972,70.6890756 C188.542005,65.7684161 185.177193,61.8247114 180.835434,58.8578431 C176.493676,55.8909749 171.283644,53.756309 165.205182,52.4537815 C159.12672,51.151254 152.397096,50.5 145.016106,50.5 L72.07493,50.5 L72.07493,50.5 Z M106.157563,179.015406 L106.157563,136.466387 L143.279412,136.466387 C150.660401,136.466387 156.594049,138.166883 161.080532,141.567927 C165.567016,144.968971 167.810224,150.649353 167.810224,158.609244 C167.810224,162.661552 167.122789,165.990183 165.747899,168.595238 C164.373009,171.200293 162.527789,173.262597 160.212185,174.782213 C157.89658,176.301828 155.219203,177.387252 152.179972,178.038515 C149.140741,178.689779 145.956833,179.015406 142.628151,179.015406 L106.157563,179.015406 L106.157563,179.015406 Z"
+                  fill="#FFFFFF"
+                ></path>
+              </g>
+            </g>
+          </svg>
         </div>
         <div class="box-skill">
-            <svg viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M0,222.991225 C0,241.223474 14.7785318,256 33.0087747,256 L222.991225,256 C241.223474,256 256,241.221468 256,222.991225 L256,33.0087747 C256,14.7765263 241.221468,0 222.991225,0 L33.0087747,0 C14.7765263,0 0,14.7785318 0,33.0087747 L0,222.991225 Z" fill="#563D7C"> </path> <path d="M106.157563,113.238095 L106.157563,76.9845938 L138.069328,76.9845938 C141.108559,76.9845938 144.039202,77.2378593 146.861345,77.7443978 C149.683488,78.2509362 152.179961,79.1554557 154.35084,80.4579832 C156.52172,81.7605107 158.258397,83.5695496 159.560924,85.8851541 C160.863452,88.2007585 161.514706,91.1675823 161.514706,94.7857143 C161.514706,101.298352 159.560944,106.001853 155.653361,108.896359 C151.745779,111.790864 146.752832,113.238095 140.67437,113.238095 L106.157563,113.238095 L106.157563,113.238095 Z M72.07493,50.5 L72.07493,205.5 L147.186975,205.5 C154.133788,205.5 160.899594,204.631661 167.484594,202.894958 C174.069594,201.158255 179.93088,198.480877 185.068627,194.862745 C190.206375,191.244613 194.294803,186.577293 197.334034,180.860644 C200.373264,175.143996 201.892857,168.37819 201.892857,160.563025 C201.892857,150.866431 199.541107,142.581033 194.837535,135.706583 C190.133963,128.832132 183.00635,124.020088 173.454482,121.270308 C180.401295,117.941627 185.647508,113.672295 189.193277,108.462185 C192.739047,103.252075 194.511905,96.7395349 194.511905,88.9243697 C194.511905,81.6881057 193.317939,75.6097352 190.929972,70.6890756 C188.542005,65.7684161 185.177193,61.8247114 180.835434,58.8578431 C176.493676,55.8909749 171.283644,53.756309 165.205182,52.4537815 C159.12672,51.151254 152.397096,50.5 145.016106,50.5 L72.07493,50.5 L72.07493,50.5 Z M106.157563,179.015406 L106.157563,136.466387 L143.279412,136.466387 C150.660401,136.466387 156.594049,138.166883 161.080532,141.567927 C165.567016,144.968971 167.810224,150.649353 167.810224,158.609244 C167.810224,162.661552 167.122789,165.990183 165.747899,168.595238 C164.373009,171.200293 162.527789,173.262597 160.212185,174.782213 C157.89658,176.301828 155.219203,177.387252 152.179972,178.038515 C149.140741,178.689779 145.956833,179.015406 142.628151,179.015406 L106.157563,179.015406 L106.157563,179.015406 Z" fill="#FFFFFF"> </path> </g> </g></svg>
-        </div>
-        <div class="box-skill">
-            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M2.58536 17.4132C1.80488 16.6327 1.80488 15.3673 2.58536 14.5868L14.5868 2.58536C15.3673 1.80488 16.6327 1.80488 17.4132 2.58536L29.4146 14.5868C30.1951 15.3673 30.1951 16.6327 29.4146 17.4132L17.4132 29.4146C16.6327 30.1951 15.3673 30.1951 14.5868 29.4146L2.58536 17.4132Z" fill="#EE513B"></path> <path d="M12.1489 5.06152L10.9336 6.27686L14.0725 9.41577C13.9455 9.68819 13.8746 9.99201 13.8746 10.3124C13.8746 11.222 14.4461 11.9981 15.2496 12.3012V19.9798C14.4461 20.2829 13.8746 21.059 13.8746 21.9686C13.8746 23.1422 14.826 24.0936 15.9996 24.0936C17.1732 24.0936 18.1246 23.1422 18.1246 21.9686C18.1246 21.144 17.6549 20.429 16.9684 20.0768V12.3117L19.9689 15.3122C19.8481 15.5791 19.7809 15.8754 19.7809 16.1874C19.7809 17.361 20.7323 18.3124 21.9059 18.3124C23.0795 18.3124 24.0309 17.361 24.0309 16.1874C24.0309 15.0138 23.0795 14.0624 21.9059 14.0624C21.6778 14.0624 21.4582 14.0983 21.2522 14.1648L18.0297 10.9423C18.0914 10.7433 18.1246 10.5317 18.1246 10.3124C18.1246 9.13878 17.1732 8.18738 15.9996 8.18738C15.7803 8.18738 15.5688 8.22061 15.3697 8.2823L12.1489 5.06152Z" fill="white"></path> </g></svg>
+          <svg
+            viewBox="0 0 32 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              id="SVGRepo_bgCarrier"
+              stroke-width="0"
+            ></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <path
+                d="M2.58536 17.4132C1.80488 16.6327 1.80488 15.3673 2.58536 14.5868L14.5868 2.58536C15.3673 1.80488 16.6327 1.80488 17.4132 2.58536L29.4146 14.5868C30.1951 15.3673 30.1951 16.6327 29.4146 17.4132L17.4132 29.4146C16.6327 30.1951 15.3673 30.1951 14.5868 29.4146L2.58536 17.4132Z"
+                fill="#EE513B"
+              ></path>
+              <path
+                d="M12.1489 5.06152L10.9336 6.27686L14.0725 9.41577C13.9455 9.68819 13.8746 9.99201 13.8746 10.3124C13.8746 11.222 14.4461 11.9981 15.2496 12.3012V19.9798C14.4461 20.2829 13.8746 21.059 13.8746 21.9686C13.8746 23.1422 14.826 24.0936 15.9996 24.0936C17.1732 24.0936 18.1246 23.1422 18.1246 21.9686C18.1246 21.144 17.6549 20.429 16.9684 20.0768V12.3117L19.9689 15.3122C19.8481 15.5791 19.7809 15.8754 19.7809 16.1874C19.7809 17.361 20.7323 18.3124 21.9059 18.3124C23.0795 18.3124 24.0309 17.361 24.0309 16.1874C24.0309 15.0138 23.0795 14.0624 21.9059 14.0624C21.6778 14.0624 21.4582 14.0983 21.2522 14.1648L18.0297 10.9423C18.0914 10.7433 18.1246 10.5317 18.1246 10.3124C18.1246 9.13878 17.1732 8.18738 15.9996 8.18738C15.7803 8.18738 15.5688 8.22061 15.3697 8.2823L12.1489 5.06152Z"
+                fill="white"
+              ></path>
+            </g>
+          </svg>
         </div>
       </div>
     </section>
 
     <!-- Amostra de Portfólio -->
     <section id="projects">
-        <div class="container">
-            <div class="section-title">
-                <h2>Projetos</h2>
-                <hr>
-            </div>
-            <div class="window-projects project-1">
-                <img src="./assets/devcom.png" alt="Captura de tela da página criada pela desenvolvedora Laura">
-                <div class="title-window">
-                    <a href="https://lauraxaraba.github.io/landingpageAgencia/"><h2>Webpage dev.com</h2></a>
-                    <p>Webpage criada para a agência imaginária de desenvolvimento Dev.Com, na intenção de exercitar a propriedade "display" do CSS. Foi construído com HTML e CSS puro.</p>
-                </div>
-            </div>
-            <div class="window-projects project-2">
-                <img src="./assets/moveit.png" alt="Captura de tela da página criada pela desenvolvedora Laura">
-                <div class="title-window">
-                    <a href="https://lauraxaraba.github.io/moveit/"><h2>Webpage Move It</h2></a>
-                    <p>Uma Webpage construída para uma startup de mudanças inventada, chamada Move It, que ajudou-me a treinar meu cérebro a reutilizar snippets quando conveniente.</p>
-                </div>
-            </div>
-            <div class="window-projects project-3">
-                <img src="./assets/tindog.png" alt="Captura de tela da página criada pela desenvolvedora Laura">
-                <div class="title-window">
-                    <a href="https://lauraxaraba.github.io/tindog/"><h2>Webpage TinDog</h2></a>
-                    <p>Uma Webpage construída para um info-produto imaginário chamado TinDog. Construída com Bootstrap, modificando snippets do site oficial do Bootstrap.</p>
-                </div>
-            </div>
+      <div class="container">
+        <h2 class="section-title">Projetos</h2>
+        <div class="window-projects project-1">
+          <img
+            src="./assets/devcom.png"
+            alt="Captura de tela da página criada pela desenvolvedora Laura"
+          />
+          <div class="title-window">
+            <a href="https://lauraxaraba.github.io/landingpageAgencia/"><h2>Webpage dev.com</h2></a>
+            <p>
+              Webpage criada para a agência imaginária de desenvolvimento Dev.Com, na intenção de exercitar a
+              propriedade "display" do CSS. Foi construído com HTML e CSS puro.
+            </p>
+          </div>
         </div>
+        <div class="window-projects project-2">
+          <img
+            src="./assets/moveit.png"
+            alt="Captura de tela da página criada pela desenvolvedora Laura"
+          />
+          <div class="title-window">
+            <a href="https://lauraxaraba.github.io/moveit/"><h2>Webpage Move It</h2></a>
+            <p>
+              Uma Webpage construída para uma startup de mudanças inventada, chamada Move It, que ajudou-me a treinar
+              meu cérebro a reutilizar snippets quando conveniente.
+            </p>
+          </div>
+        </div>
+        <div class="window-projects project-3">
+          <img
+            src="./assets/tindog.png"
+            alt="Captura de tela da página criada pela desenvolvedora Laura"
+          />
+          <div class="title-window">
+            <a href="https://lauraxaraba.github.io/tindog/"><h2>Webpage TinDog</h2></a>
+            <p>
+              Uma Webpage construída para um info-produto imaginário chamado TinDog. Construída com Bootstrap,
+              modificando snippets do site oficial do Bootstrap.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Seção de convite para contato -->
     <section id="contact">
-        <div class="container">
-            <div class="title-contact">
-                <h2>Quer entrar em contato?</h2>
-                <p>Podemos conversar, trocar experiências, discutir sobre projetos ou sobre café, gatos e jogos.</p>
-            </div>
-            <div class="e-mail">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
-                    <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
-                </svg>
-                <p>lauraxaraba@gmail.com</p>
-            </div>
-            <div class="tel">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
-                </svg>
-                <p>+55 (16) 99299-6453</p>
-            </div>
+      <div class="container">
+        <div class="title-contact">
+          <h2>Quer entrar em contato?</h2>
+          <p>Podemos conversar, trocar experiências, discutir sobre projetos ou sobre café, gatos e jogos.</p>
         </div>
+        <div class="e-mail">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-envelope-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"
+            />
+          </svg>
+          <p>lauraxaraba@gmail.com</p>
+        </div>
+        <div class="tel">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-telephone-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"
+            />
+          </svg>
+          <p>+55 (16) 99299-6453</p>
+        </div>
+      </div>
     </section>
 
     <!-- Footer com copyright e link para LinkedIn e GitHub -->
     <section id="footer">
-        <div class="container">
-            <div class="copyright">
-                <p>© Laura Xaraba</p>
-            </div>
-            <div class="linkedin">
-                <a href="www.linkedin.com/in/laura-alves-xaraba-59b2bb228"><p>LinkedIn</p></a>
-            </div>
-            <div class="github">
-                <a href="https://github.com/niko2-5x"><p>GitHub</p></a>
-            </div>
+      <div class="container">
+        <div class="copyright">
+          <p>© Laura Xaraba</p>
         </div>
+        <div class="linkedin">
+          <a href="www.linkedin.com/in/laura-alves-xaraba-59b2bb228"><p>LinkedIn</p></a>
+        </div>
+        <div class="github">
+          <a href="https://github.com/niko2-5x"><p>GitHub</p></a>
+        </div>
+      </div>
     </section>
-
-</body>
+  </body>
 </html>
