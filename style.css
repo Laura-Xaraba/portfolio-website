@@ -396,7 +396,7 @@ a:hover {
 
   #resume .resume-item.reverse p,
   .resume-item p {
-    text-align: justify;
+    text-align: left;
   }
 
   #resume .icon-resume {
